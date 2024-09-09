@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="CEP.html">
+    <link rel="stylesheet" href="dolar.html">
+    <link rel="stylesheet" href="tempo.html">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="CEP.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><button>HOME</button></a>
+            <a href="CEP.html"><button>Buscar-CEP</button></a>
+            <a href="dolar.html"><button>Visualizar valor do dolar</button></a>
+            <a href="tempo.html"><button>Visualizar tempo</button></a>
+        </nav>
+       
+    </header>
+
+    <div class="caixa">
+        <fieldset style="border-radius: 10px; height: 300px;">
+            <legend  style="color: rgb(245, 245, 245);">Endereço</legend>
+            <div class="center">
+                <label for=""  style="color: rgb(245, 245, 245);">CEP</label>
+                <br>
+                <input type="text" id="cep" style="border-radius: 5px;">
+                <br>
+                <label for="" style="color: rgb(245, 245, 245);">Rua</label>
+                <br>
+                <input type="text" readonly id="rua" style="border-radius: 5px;">
+                <br>
+                <label for=""  style="color: rgb(245, 245, 245);">Bairro</label>
+                <br>
+                <input type="text"readonly id="bairro" style="border-radius: 5px;">
+                <br>
+                <label for=""  style="color: rgb(245, 245, 245);">Cidade</label>
+                <br>
+                <input type="text"readonly id="cidade" style="border-radius: 5px;">
+                <br>
+                <label for=""  style="color: rgb(245, 245, 245);">Estado</label>
+                <br>
+                <input type="text"readonly id = "estado" style="border-radius: 5px;">
+            </div>
+        </fieldset>
+    
+    </div>
+</form>
+
+<script src="CEP.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin-top: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #232323;
+    height: 8vh;
+}
+
+button{
+    font-size: 20px;
+    margin-top: 15px;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    border-color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Altura da tela inteira */
+}
+
+.imagem {
+    flex: 1; /* Divide igualmente o espaço entre as imagens */
+    overflow: hidden; /* Esconde qualquer parte da imagem que ultrapasse o container */
+}
+
+.imagem img {
+    object-fit: cover; /* Cobre todo o container, mantendo a proporção da imagem */
+    opacity: 0.7; /* Define a transparência; ajuste entre 0 e 1 */
+    width: 100%; /* Ajusta a largura da imagem ao container */
+    height: 100%; /* Ajusta a altura da imagem ao container */
+    object-fit: cover; /* Cobre todo o container, mantendo a proporção da imagem */
+}
+body{
+    background-color: rgb(94, 86, 86);
+}
